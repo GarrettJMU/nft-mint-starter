@@ -13,8 +13,15 @@ yarn
 ```
 
 Secondly, let's edit the .env variable. You can copy the .
+```bash
+cp .env.example .env
+```
 
-Second, run the development server:
+Let's edit the .env to support things as needed.
+NEXT_PUBLIC_THEME is the theme that will be used for the site. You can see the available themes below:
+![img.png](img.png)
+
+Lastly, run the development server:
 ```bash
 yarn dev
 ```

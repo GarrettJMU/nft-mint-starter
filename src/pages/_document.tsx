@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en" data-theme={process.env.NEXT_PUBLIC_THEME}>
       <Head />
       <body>
         <Main />
