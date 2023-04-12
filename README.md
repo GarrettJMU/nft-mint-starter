@@ -2,14 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
-
+First, install dependencies. This project uses [Yarn](https://yarnpkg.com/) as a package manager. If you don't have it installed, you can install it with this command:
 ```bash
-npm run dev
-# or
+npm install --global yarn
+```
+
+We'll then run:
+```bash
+yarn
+```
+
+Secondly, let's edit the .env variable. You can copy the .
+
+Second, run the development server:
+```bash
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
