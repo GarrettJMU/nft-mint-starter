@@ -50,6 +50,16 @@ If your project uses the `erc1155` standard, this variable should store the toke
 
 After configuring the environment variables, save the `.env` file.
 
+## Summary of Environment Variables
+
+Here's a summary of the environment variables we've configured:
+
+- `NEXT_PUBLIC_CONTRACT_ADDRESS`
+- `NEXT_PUBLIC_BLOCKCHAIN`
+- `NEXT_PUBLIC_THEME` (default: cupcake)
+- `NEXT_PUBLIC_ERC_STANDARD` (default: erc1155)
+- `NEXT_PUBLIC_ERC1155_TOKEN_ID` (default: 1)
+
 ## Running the Development Server
 
 With dependencies installed and environment variables set, you can now start the development server by running the following command:
@@ -67,13 +77,3 @@ As you make changes to the project, the page will auto-update. You can start edi
 The most straightforward way to deploy your application is by using the [Vercel Platform](https://vercel.com/new), created by the team behind Next.js.
 
 For more information on deploying Next.js applications, consult the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
-
-## Summary of Environment Variables
-
-Here's a summary of the environment variables we've configured:
-
-- `NEXT_PUBLIC_CONTRACT_ADDRESS`
-- `NEXT_PUBLIC_BLOCKCHAIN`
-- `NEXT_PUBLIC_THEME` (default: cupcake)
-- `NEXT_PUBLIC_ERC_STANDARD` (default: erc1155)
-- `NEXT_PUBLIC_ERC1155_TOKEN_ID` (default: 1)
