@@ -16,6 +16,7 @@
     "daisyui": "^2.51.5",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "ethereum-blockies-base64": "^1.0.2",
     "ethers": "^5",
     "next": "13.3.0",
     "postcss": "8.4.21",

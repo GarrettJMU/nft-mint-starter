@@ -1,9 +1,12 @@
-import Erc1155Card from "@/components/Erc1155Card";
+import ConnectWalletButton from "@/components/ConnectWalletButton";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main>
-      <Erc1155Card />
+      <Navbar />
+      <Hero />
     </main>
   );
 }
