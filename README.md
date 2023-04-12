@@ -1,4 +1,4 @@
-# Getting Started with the Project
+# Getting Started with the NFT Mint Starter
 
 In this guide, we'll walk you through the steps needed to set up and run the project on your local machine. The process includes installing dependencies, configuring environment variables, and running the development server. Let's dive in!
 
@@ -54,9 +54,9 @@ After configuring the environment variables, save the `.env` file.
 
 With dependencies installed and environment variables set, you can now start the development server by running the following command:
 
-\```bash
+```bash
 yarn dev
-\```
+```
 
 Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the site.
 
@@ -64,7 +64,7 @@ As you make changes to the project, the page will auto-update. You can start edi
 
 ## Deploying on Vercel
 
-The most straightforward way to deploy your application is by using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), created by the team behind Next.js.
+The most straightforward way to deploy your application is by using the [Vercel Platform](https://vercel.com/new), created by the team behind Next.js.
 
 For more information on deploying Next.js applications, consult the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
