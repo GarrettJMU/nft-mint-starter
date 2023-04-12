@@ -29,6 +29,12 @@ export type AvailableThemes =
   | "coffee"
   | "winter";
 
+export type AvailableErcStandards = "erc1155" | "erc721";
+
 export const getTheme = (): AvailableThemes => {
   return process.env.NEXT_PUBLIC_THEME;
+};
+
+export const getErcStandard = (): AvailableErcStandards => {
+  return process.env.NEXT_PUBLIC_ERC_STANDARD;
 };
